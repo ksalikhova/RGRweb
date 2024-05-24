@@ -2,7 +2,7 @@ doctype html
 html(lang="ru") 
     head
         meta(charset="utf-8")
-        title Explosion gallery
+        title Plants gallery
         link(rel="stylesheet" href="/css/reset.css")
         link(rel="stylesheet" href="/css/index.css")
         link(rel="stylesheet" href="/libs/explosion/css/index.css")
@@ -10,7 +10,7 @@ html(lang="ru")
     body
         - var images = require(__dirname + "/src/data.json");
         .page
-            h1.title Explosion gallery
+            h1.title Plants gallery
             .gallery
                 each image in images
                     .galleryItem
